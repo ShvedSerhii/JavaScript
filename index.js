@@ -2,5 +2,5 @@
 // строка задом наперед
 
 function reversString(string) {
-    
+    return string
 }
