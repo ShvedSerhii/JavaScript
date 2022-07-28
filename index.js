@@ -1,6 +1,7 @@
 // HOME WORK 1
-// строка задом наперед
+// написать функцию которая возвращает строку задом наперед
 
 function reversString(string) {
     return string
 }
+
