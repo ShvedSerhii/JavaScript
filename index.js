@@ -1,15 +1,13 @@
 // HOME WORK 1
 // написать функцию которая возвращает строку задом наперед
-
-
 function reversString(string) {
-    let newStr = string.reverse()
-    let reverseStr = ''
-    for (let i = 0; i < newStr.length; i++) {
-      const arrStr = newStr[i];
-      reverseStr = arrStr
-    } 
-    return reverseStr
+    const arrString = string.split('');
+    const newArrString = [];
+  
+    for (let i = arrString.length; i > -1; i--) {
+      newArrString.push(arrString[i])
+    }
+    return newArrString
   }
   
-  console.log(reversString('hgagjsvjgv asjdvjhavsjdva bajshgdjhvasdb'));
+  console.log(reversString('12345677890'));
