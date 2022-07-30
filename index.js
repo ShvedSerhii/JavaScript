@@ -3,7 +3,7 @@
 
 function reversString(string) {
 
-    let newStr = string.reverse()
+    let newStr = string.reverse() // в строки немає метода reverse(), але цей метод є у масива
     let reverseStr = ''
     for (let i = 0; i < newStr.length; i++) {
       const arrStr = newStr[i];
